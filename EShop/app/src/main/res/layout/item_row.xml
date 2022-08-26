@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C1E49">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="388dp"
+        android:layout_height="169dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#552951"
+        app:cardCornerRadius="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028">
+
+        <ImageView
+            android:id="@+id/cti"
+            android:layout_width="584dp"
+            android:layout_height="155dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="6dp"
+            app:srcCompat="@drawable/chocolate" />
+
+        <TextView
+            android:id="@+id/ct"
+            android:layout_width="420dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="0dp"
+            android:fontFamily="@font/alata"
+            android:text="Chocolate"
+            android:textColor="#ECC5C0"
+            android:textSize="34sp" />
+
+        <TextView
+            android:id="@+id/ctp"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/alata"
+            android:text="Price: 0.25"
+            android:textColor="#ECC5C0"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/dlb"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="127.5dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_delete_24"
+            app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+    </androidx.cardview.widget.CardView><![CDATA[
+
+
+
+
+
+    android:layout_width="388dp"
+    android:layout_height="169dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.478"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.379" />
+
+
+
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>
